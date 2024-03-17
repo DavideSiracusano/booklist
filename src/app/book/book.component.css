@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.add-books {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+mat-form-field {
+  margin-right: 20px;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+button {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}

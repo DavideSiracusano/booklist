@@ -1,0 +1,38 @@
+<h1>Book List</h1>
+<form class="form">
+  <div class="add-books">
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input matInput placeholder="Title" [(ngModel)]="newTitle" name="title" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Author</mat-label>
+      <input
+        matInput
+        placeholder="Author"
+        [(ngModel)]="newAuthor"
+        name="author"
+      />
+    </mat-form-field>
+    <button
+      mat-icon-button
+      matTooltip="Basic"
+      aria-label="Example icon-button with an Add icon"
+      (click)="AddBook()"
+    >
+      <mat-icon
+        ><span class="material-symbols-outlined">
+          <span class="material-symbols-outlined"> add_circle </span>
+        </span>
+      </mat-icon>
+    </button>
+  </div>
+  <ul>
+    <li *ngFor="let book of books; index as i">
+      ● {{ book.title }} - {{ book.author }}
+      <button mat-raised-button color="warn" (click)="DeleteBook(i)">
+        Delete
+      </button>
+    </li>
+  </ul>
+</form>
