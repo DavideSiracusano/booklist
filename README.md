@@ -1,6 +1,9 @@
-# MyApp1
+![Screenshot 2024-03-17 160214](https://github.com/DavideSiracusano/booklist/assets/152174921/61c45aea-f32f-4bb2-a357-5fcf5a9b0231)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+this project is a Task manager created with angular, basically you can add a new book to the list by clicking the "+" button, you can also delete the specific book by clicking it and remove it from the list
+
+
+## This project wass created using angular and bootstrap for styling
 
 ## Development server
 
@@ -19,9 +22,3 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
