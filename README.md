@@ -5,6 +5,9 @@ this project is a Task manager created with angular, basically you can add a new
 
 ## This project wass created using angular and bootstrap for styling
 
+##Link to the project:
+https://booklist-600af.web.app
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
