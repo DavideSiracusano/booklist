@@ -5,7 +5,7 @@ this project is a Task manager created with angular, basically you can add a new
 
 ## This project wass created using angular and bootstrap for styling
 
-##Link to the project:
+## Link to the project:
 https://booklist-600af.web.app
 
 ## Development server
